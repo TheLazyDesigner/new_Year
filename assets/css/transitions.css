@@ -1,0 +1,128 @@
+@-webkit-keyframes snowflake{
+  0% { margin-left: 0; top: 0; }
+  16% { margin-left: 15px; }
+  33% { margin-left: -15px; }
+  50% { margin-left: 15px; }
+  75% { margin-left: -15px; }
+  100% { margin-left: 0; top: 100%; }
+}
+@-moz-keyframes snowflake{
+  0% { margin-left: 0; top: 0; }
+  16% { margin-left: 15px; }
+  33% { margin-left: -15px; }
+  50% { margin-left: 15px; }
+  75% { margin-left: -15px; }
+  100% { margin-left: 0; top: 100%; }
+}
+@-ms-keyframes snowflake{
+  0% { margin-left: 0; top: 0; }
+  16% { margin-left: 15px; }
+  33% { margin-left: -15px; }
+  50% { margin-left: 15px; }
+  75% { margin-left: -15px; }
+  100% { margin-left: 0; top: 100%; }
+}
+@-o-keyframes snowflake{
+  0% { margin-left: 0; top: 0; }
+  16% { margin-left: 15px; }
+  33% { margin-left: -15px; }
+  50% { margin-left: 15px; }
+  75% { margin-left: -15px; }
+  100% { margin-left: 0; top: 100%; }
+}
+@keyframes snowflake{
+  0% { margin-left: 0; top: 0; }
+  16% { margin-left: 15px; }
+  33% { margin-left: -15px; }
+  50% { margin-left: 15px; }
+  75% { margin-left: -15px; }
+  100% { margin-left: 0; top: 100%; }
+}
+
+
+#snowflake-1{
+  -webkit-animation: snowflake 15s linear infinite;
+  -moz-animation: snowflake 15s linear infinite;
+  -ms-animation: snowflake 15s linear infinite;
+  -o-animation: snowflake 15s linear infinite;
+  animation: snowflake 15s linear infinite;
+}
+#snowflake-2{
+  -webkit-animation: snowflake 15s linear infinite 2s;
+  -moz-animation: snowflake 15s linear infinite 2s;
+  -ms-animation: snowflake 15s linear infinite 2s;
+  -o-animation: snowflake 15s linear infinite 2s;
+  animation: snowflake 15s linear infinite 2s;
+}
+#snowflake-3{
+  -webkit-animation: snowflake 15s linear infinite 3s;
+  -moz-animation: snowflake 15s linear infinite 3s;
+  -ms-animation: snowflake 15s linear infinite 3s;
+  -o-animation: snowflake 15s linear infinite 3s;
+  animation: snowflake 15s linear infinite 3s;
+}
+#snowflake-4{
+  -webkit-animation: snowflake 15s linear infinite 4.5s;
+  -moz-animation: snowflake 15s linear infinite 4.5s;
+  -ms-animation: snowflake 15s linear infinite 4.5s;
+  -o-animation: snowflake 15s linear infinite 4.5s;
+  animation: snowflake 15s linear infinite 4.5s;
+}
+#snowflake-5{
+  -webkit-animation: snowflake 15s linear infinite 6s;
+  -moz-animation: snowflake 15s linear infinite 6s;
+  -ms-animation: snowflake 15s linear infinite 6s;
+  -o-animation: snowflake 15s linear infinite 6s;
+  animation: snowflake 15s linear infinite 6s;
+}
+#snowflake-6{
+  -webkit-animation: snowflake 15s linear infinite 7s;
+  -moz-animation: snowflake 15s linear infinite 7s;
+  -ms-animation: snowflake 15s linear infinite 7s;
+  -o-animation: snowflake 15s linear infinite 7s;
+  animation: snowflake 15s linear infinite 7s;
+}
+#snowflake-7{
+  -webkit-animation: snowflake 15s linear infinite 8.5s;
+  -moz-animation: snowflake 15s linear infinite 8.5s;
+  -ms-animation: snowflake 15s linear infinite 98.5ss;
+  -o-animation: snowflake 15s linear infinite 8.5s;
+  animation: snowflake 15s linear infinite 8.5s;
+}
+#snowflake-8{
+  -webkit-animation: snowflake 15s linear infinite 9.2s;
+  -moz-animation: snowflake 15s linear infinite 9.2s;
+  -ms-animation: snowflake 15s linear infinite 9.2s;
+  -o-animation: snowflake 15s linear infinite 9.2s;
+  animation: snowflake 15s linear infinite 9.2s;
+}
+#snowflake-9{
+  -webkit-animation: snowflake 15s linear infinite 10s;
+  -moz-animation: snowflake 15s linear infinite 10s;
+  -ms-animation: snowflake 15s linear infinite 10s;
+  -o-animation: snowflake 15s linear infinite 10s;
+  animation: snowflake 15s linear infinite 10s;
+}
+#snowflake-10{
+  -webkit-animation: snowflake 15s linear infinite 12s;
+  -moz-animation: snowflake 15s linear infinite 12s;
+  -ms-animation: snowflake 15s linear infinite 12s;
+  -o-animation: snowflake 15s linear infinite 12s;
+  animation: snowflake 15s linear infinite 12s;
+}
+
+
+.scene-parallax #layer-1 img{
+  -webkit-transition: all 2s linear;
+  -moz-transition: all 2s linear;
+  -ms-transition: all 2s linear;
+  -o-transition: all 2s linear;
+  transition: all 2s linear;
+}
+.scene-parallax #layer-2 img{
+  -webkit-transition: all 5s ease-in-out 0.5s;
+  -moz-transition: all 5s ease-in-out 0.5s;
+  -ms-transition: all 5s ease-in-out 0.5s;
+  -o-transition: all 5s ease-in-out 0.5s;
+  transition: all 5s ease-in-out 0.5s;
+}
